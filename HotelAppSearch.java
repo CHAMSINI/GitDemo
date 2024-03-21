@@ -41,6 +41,7 @@ public class HotelAppSearch {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new io.cucumber.java.PendingException();
 		driver.findElement(By.id("password")).sendKeys(string);
+		System.out.println(string);
 	}
 
 	@When("I click login")
